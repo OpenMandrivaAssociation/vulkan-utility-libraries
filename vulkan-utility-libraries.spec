@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           vulkan-utility-libraries
-Version:        1.4.350
+Version:        1.4.359
 Release:        1
 Summary:        Vulkan utility libraries
 Group:		Libraries
@@ -39,6 +39,6 @@ Provides:       vulkan-validation-layers-devel = %{version}-%{release}
 %doc README.md
 %{_includedir}/vulkan/
 %{_libdir}/cmake/VulkanUtilityLibraries/*.cmake
-%{_libdir}/libVulkanLayerSettings.a
-%{_libdir}/libVulkanSafeStruct.a
+%{_libdir}/libVulkanLayerSettings.so
+%{_libdir}/libVulkanSafeStruct.so
 
