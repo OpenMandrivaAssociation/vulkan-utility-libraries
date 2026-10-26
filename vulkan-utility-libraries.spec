@@ -41,4 +41,6 @@ Provides:       vulkan-validation-layers-devel = %{version}-%{release}
 %{_libdir}/cmake/VulkanUtilityLibraries/*.cmake
 %{_libdir}/libVulkanLayerSettings.so
 %{_libdir}/libVulkanSafeStruct.so
+%{_datadir}/vulkan/layers_settings_schema.json
+%{_datadir}/vulkan/validate_json_schema.py
 
